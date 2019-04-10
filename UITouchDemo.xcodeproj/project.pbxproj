@@ -15,6 +15,11 @@
 		C7B070E9225DC98C0077D540 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B070E8225DC98C0077D540 /* main.m */; };
 		C7B070F3225DC98D0077D540 /* UITouchDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B070F2225DC98D0077D540 /* UITouchDemoTests.m */; };
 		C7B070FE225DC98D0077D540 /* UITouchDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B070FD225DC98D0077D540 /* UITouchDemoUITests.m */; };
+		C7B0710D225DCB3D0077D540 /* AView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B0710C225DCB3D0077D540 /* AView.m */; };
+		C7B07110225DCB480077D540 /* BView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B0710F225DCB480077D540 /* BView.m */; };
+		C7B07113225DCB530077D540 /* CView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B07112225DCB530077D540 /* CView.m */; };
+		C7B07116225DCB5C0077D540 /* DView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B07115225DCB5C0077D540 /* DView.m */; };
+		C7B07119225DD2DC0077D540 /* PDTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B07118225DD2DC0077D540 /* PDTapGestureRecognizer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		C7B070F9225DC98D0077D540 /* UITouchDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITouchDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7B070FD225DC98D0077D540 /* UITouchDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITouchDemoUITests.m; sourceTree = "<group>"; };
 		C7B070FF225DC98D0077D540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7B0710B225DCB3D0077D540 /* AView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AView.h; sourceTree = "<group>"; };
+		C7B0710C225DCB3D0077D540 /* AView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AView.m; sourceTree = "<group>"; };
+		C7B0710E225DCB480077D540 /* BView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BView.h; sourceTree = "<group>"; };
+		C7B0710F225DCB480077D540 /* BView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BView.m; sourceTree = "<group>"; };
+		C7B07111225DCB530077D540 /* CView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CView.h; sourceTree = "<group>"; };
+		C7B07112225DCB530077D540 /* CView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CView.m; sourceTree = "<group>"; };
+		C7B07114225DCB5C0077D540 /* DView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DView.h; sourceTree = "<group>"; };
+		C7B07115225DCB5C0077D540 /* DView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DView.m; sourceTree = "<group>"; };
+		C7B07117225DD2DC0077D540 /* PDTapGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDTapGestureRecognizer.h; sourceTree = "<group>"; };
+		C7B07118225DD2DC0077D540 /* PDTapGestureRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDTapGestureRecognizer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +120,16 @@
 				C7B070DA225DC98C0077D540 /* AppDelegate.m */,
 				C7B070DC225DC98C0077D540 /* ViewController.h */,
 				C7B070DD225DC98C0077D540 /* ViewController.m */,
+				C7B07117225DD2DC0077D540 /* PDTapGestureRecognizer.h */,
+				C7B07118225DD2DC0077D540 /* PDTapGestureRecognizer.m */,
+				C7B0710B225DCB3D0077D540 /* AView.h */,
+				C7B0710C225DCB3D0077D540 /* AView.m */,
+				C7B0710E225DCB480077D540 /* BView.h */,
+				C7B0710F225DCB480077D540 /* BView.m */,
+				C7B07111225DCB530077D540 /* CView.h */,
+				C7B07112225DCB530077D540 /* CView.m */,
+				C7B07114225DCB5C0077D540 /* DView.h */,
+				C7B07115225DCB5C0077D540 /* DView.m */,
 				C7B070DF225DC98C0077D540 /* Main.storyboard */,
 				C7B070E2225DC98C0077D540 /* Assets.xcassets */,
 				C7B070E4225DC98C0077D540 /* LaunchScreen.storyboard */,
@@ -262,9 +287,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7B07113225DCB530077D540 /* CView.m in Sources */,
 				C7B070DE225DC98C0077D540 /* ViewController.m in Sources */,
 				C7B070E9225DC98C0077D540 /* main.m in Sources */,
+				C7B07119225DD2DC0077D540 /* PDTapGestureRecognizer.m in Sources */,
+				C7B0710D225DCB3D0077D540 /* AView.m in Sources */,
 				C7B070DB225DC98C0077D540 /* AppDelegate.m in Sources */,
+				C7B07116225DCB5C0077D540 /* DView.m in Sources */,
+				C7B07110225DCB480077D540 /* BView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
