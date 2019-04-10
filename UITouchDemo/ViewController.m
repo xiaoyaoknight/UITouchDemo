@@ -133,6 +133,11 @@
     [d addGestureRecognizer:tapD];
 }
 
+
+/**
+ UIControl会阻止父视图上的手势识别器的行为，也就是UIControl的执行优先级比父视图上面的UIGestureRecognizer要高，但是比UIControl自身的UIGestureRecognizer优先级要低。
+ 当UIControl上面添加了手势后，UIControl不会响应自己的action。
+ */
 - (void)test5 {
     
     AView *a = [[AView alloc] initWithFrame:CGRectMake(0, 0, 375, 700)];
